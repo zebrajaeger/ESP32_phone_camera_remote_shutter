@@ -17,10 +17,13 @@
   
 */
 
-#define __BUTTONPIN 39
-#define __MANUFACTURER "Michael Ruck"
+#define __BUTTONPIN 23
+#define __MANUFACTURER "zebrajaeger"
 #define __BT_NAME "cam-remote-button"
 
+#ifndef LED_BUILTIN
+#define LED_BUILTIN 2
+#endif
 /*
  * If you need another keycode, open hut1_12v2.pdf page 53
  */
